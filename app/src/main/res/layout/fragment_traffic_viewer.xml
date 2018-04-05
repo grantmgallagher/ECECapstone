@@ -52,7 +52,7 @@ tools:context="ece.bikeblindspotdetector.TrafficViewerFragment">
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bike" />
+        app:srcCompat="@mipmap/bike" />
 
 </android.support.constraint.ConstraintLayout>
 
