@@ -12,6 +12,7 @@ tools:context="ece.bikeblindspotdetector.TrafficViewerFragment">
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="238dp"
         android:layout_marginBottom="8dp"
@@ -42,14 +43,16 @@ tools:context="ece.bikeblindspotdetector.TrafficViewerFragment">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="98dp"
-        android:layout_height="181dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        app:srcCompat="@drawable/bike"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/bike" />
 
 </android.support.constraint.ConstraintLayout>
 
