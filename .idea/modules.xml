@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\Grant\AndroidStudioProjects\ECECapstone\BikeBlindSpotDetector.iml" filepath="C:\Users\Grant\AndroidStudioProjects\ECECapstone\BikeBlindSpotDetector.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ECECapstone.iml" filepath="$PROJECT_DIR$/ECECapstone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Blindside.iml" filepath="$PROJECT_DIR$/Blindside.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

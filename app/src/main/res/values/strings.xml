@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">BlindSide</string>
-    <string name="img_desc">Bike</string>
-    <string name="img_descr">Car</string>
+    <string name="app_name">Blindside</string>
 </resources>

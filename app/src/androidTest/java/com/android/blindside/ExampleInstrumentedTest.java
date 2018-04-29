@@ -1,4 +1,4 @@
-package ece.bikeblindspotdetector;
+package com.android.blindside;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -17,10 +17,10 @@ import static org.junit.Assert.*;
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     @Test
-    public void useAppContext() throws Exception {
+    public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("ece.bikeblindspotdetector", appContext.getPackageName());
+        assertEquals("com.android.blindside", appContext.getPackageName());
     }
 }
